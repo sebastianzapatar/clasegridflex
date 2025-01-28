@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header {
+    border: 1px solid rgb(94, 92, 92);
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente (opcional) */
+    margin: 5%;
+    width: 80%;
+    height: 80px; /* Ajusta la altura según necesites */
+}
+header nav{
+    width: 70%;
+}
+header img{
+    width: 10%;
+}
+header nav ul {
+    list-style-type: none; /* Quita los puntos */
+    display: flex; /* Hace que los <li> estén en una línea */
+    padding: 0; /* Elimina el padding por defecto */
+    margin-left: 10px; /* Elimina el margen por defecto */
+}
+
+header nav li {
+    margin-right: 15px; /* Espacio entre elementos (opcional) */
+}
+
+header nav li a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container aside {
+    border: 1px solid tomato;
+    margin-right: 5%;
+    width: 27%;
+}
+
+.container main {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    width: 60%;
+}
+.container main div{
+    background-color: aqua;
+    height: 100px;
+    margin: 5px;
+    width: 30%;
+}
+footer{
+    border: 1px solid blue;
+    margin-top: 5%;
+
+}
