@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 body{
@@ -18,8 +18,11 @@ body{
 }
 .card-container{
     align-content: center;
+    align-items: center;
     background-color: white;
     border-radius: 0 0 1em 1em;
+    display: flex;
+    flex-wrap: wrap;
     padding: 40px 15px;
 
 }
@@ -29,6 +32,7 @@ h2{
 .card-paragraph{
     
     line-height: 1.5;
+    font-size: smaller;
     
 }
 a{
@@ -37,6 +41,9 @@ a{
     color: white;
     display: inline-block;
     height: 30%;
-    text-align: center;
     text-decoration: none;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
